@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="str" class="java.lang.String" >
+        <constructor-arg value="hello Spring"/>
+    </bean>
+    <bean class="com.ucpeo.spring5.bean.User" >
+        <property name="name" value="ucpeo"/>
+        <property name="psw">
+            <value>psw12346</value>
+        </property>
+    </bean>
+</beans>
